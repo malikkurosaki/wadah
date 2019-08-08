@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/probusMenuBawah1"
+        android:title="Home"
+        android:icon="@drawable/menu_home"/>
+    <item
+        android:id="@+id/probusMenuBawah2"
+        android:title="Home"
+        android:icon="@drawable/menu_icon3"/>
+    <item
+        android:id="@+id/probusMenuBawah3"
+        android:title="Home"
+        android:icon="@drawable/menu_icon2"/>
+    <item
+        android:id="@+id/probusMenuBawah4"
+        android:title="Home"
+        android:icon="@drawable/menu_open"/>
+</menu>

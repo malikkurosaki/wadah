@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menus1"
+        android:icon="@drawable/menu_icon1"
+        android:title="visi and misi"/>
+    <item
+        android:id="@+id/menus2"
+        android:icon="@drawable/menu_icon2"
+        android:title="product"/>
+    <item
+        android:id="@+id/menus3"
+        android:icon="@drawable/icon_menu_services"
+        android:title="service"/>
+    <item
+        android:id="@+id/menus4"
+        android:icon="@drawable/menu_icon3"
+        android:title="probus team"/>
+    <item
+        android:id="@+id/menus5"
+        android:icon="@drawable/menu_icon4"
+        android:title="prise list"/>
+    <item
+        android:id="@+id/menus6"
+        android:icon="@drawable/menu_icon5"
+        android:title="video tutorial"/>
+    <item
+        android:id="@+id/menus7"
+        android:icon="@drawable/menu_icon6"
+        android:title="live support"/>
+    <item
+        android:id="@+id/menus8"
+        android:icon="@drawable/menu_icon7"
+        android:title="download"/>
+    <item
+        android:id="@+id/menus9"
+        android:icon="@drawable/menu_icon8"
+        android:title="galery"/>
+    <item
+        android:id="@+id/menus10"
+        android:icon="@drawable/menu_icon9"
+        android:title="our client"/>
+    <item
+        android:id="@+id/menus11"
+        android:icon="@drawable/icon_dashboard"
+        android:title="dev"/>
+</menu>

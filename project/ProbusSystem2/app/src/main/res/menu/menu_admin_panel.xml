@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/icon_admin1"
+        android:id="@+id/menuAdmin1"
+        android:title="update slide"/>
+    <item
+        android:icon="@drawable/icon_admin2"
+        android:id="@+id/menuAdmin2"
+        android:title="update content"/>
+    <item
+        android:icon="@drawable/icon_admin3"
+        android:id="@+id/menuAdmin3"
+        android:title="update newsfeed"/>
+</menu>

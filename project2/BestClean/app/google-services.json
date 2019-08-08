@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "133170103852",
+    "firebase_url": "https://bestclean-8f1e6.firebaseio.com",
+    "project_id": "bestclean-8f1e6",
+    "storage_bucket": "bestclean-8f1e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133170103852:android:d70c5b5a7ae4ff7e",
+        "android_client_info": {
+          "package_name": "dev.malikkurosaki.bestclean"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133170103852-n01fic5038cvb145r5gihgjrmvc1g427.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.malikkurosaki.bestclean",
+            "certificate_hash": "b99cd82aaf50aed8562ae3d0554b81908e78876f"
+          }
+        },
+        {
+          "client_id": "133170103852-2kkdj4ic3s98qkrte0jdcn6kt174qft2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZXdI0ettkOvrkfxywK9D6VkPeH9Z2A3s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "133170103852-2kkdj4ic3s98qkrte0jdcn6kt174qft2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

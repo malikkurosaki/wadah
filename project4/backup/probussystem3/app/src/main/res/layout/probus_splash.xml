@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:pv="http://schemas.android.com/tools">
+    <me.ibrahimsn.particle.ParticleView
+        android:id="@+id/particleView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:particleCount="20"
+        app:minParticleRadius="5"
+        app:maxParticleRadius="12"
+        app:particleColor="@android:color/white"
+        app:backgroundColor="@color/colorBiru" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="50sp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <ImageView
+            android:layout_width="100sp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_launcher"
+            android:adjustViewBounds="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PROBUS"
+            android:textColor="@color/colorPutih"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:textSize="40sp"
+            android:background="@drawable/benteuk_jajarangenjang"
+            android:paddingStart="35sp"
+            android:paddingEnd="35sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="SYSTEM"
+            android:textStyle="italic"
+            android:textAlignment="center"/>
+        <ProgressBar
+            android:id="@+id/splash_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.ncorti.slidetoact.SlideToActView
+            android:id="@+id/splash_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:border_radius="17dp"
+            app:text="slide to next"
+            app:area_margin="2dp"
+            app:slider_icon="@drawable/icon_next"
+            app:slider_height="34dp"
+            app:slider_locked="false"
+            app:text_color="@color/colorPutih"
+            app:inner_color="@color/colorAccent"
+            app:outer_color="@color/colorPrimaryDark"
+            android:layout_marginTop="32dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No Problem Only Solution"
+            android:textSize="24sp"
+            android:textColor="@color/colorPutih"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/slogan"
+            android:textAlignment="center"
+            android:textColor="@color/colorAbu3" />
+    </LinearLayout>
+</FrameLayout>

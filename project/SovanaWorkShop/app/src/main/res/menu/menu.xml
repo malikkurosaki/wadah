@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu1"
+        android:icon="@drawable/database_24"
+        android:title="database barang"/>
+    <item
+        android:id="@+id/menu2"
+        android:icon="@drawable/harga_24"
+        android:title="harga dan keterangan"/>
+    <item
+        android:id="@+id/menu3"
+        android:icon="@drawable/tool_24"
+        android:title="kebutuhan dan peralatan"/>
+    <item
+        android:id="@+id/menu4"
+        android:icon="@drawable/timeline_24"
+        android:title="prosses dan time line"/>
+</menu>

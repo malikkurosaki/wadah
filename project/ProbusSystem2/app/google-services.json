@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "612446950184",
+    "firebase_url": "https://probussystem2.firebaseio.com",
+    "project_id": "probussystem2",
+    "storage_bucket": "probussystem2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612446950184:android:cc41ea8af3e244bc",
+        "android_client_info": {
+          "package_name": "dev.malikkurosaki.probussystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612446950184-0uu8j9kctivsgtnuge98ofbct2qad5hh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.malikkurosaki.probussystem",
+            "certificate_hash": "b99cd82aaf50aed8562ae3d0554b81908e78876f"
+          }
+        },
+        {
+          "client_id": "612446950184-ggu6ea87jegr0bnn0cif1pvlips0tvg9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu7QGPAUujYD5qYpNbsRc9_5gYpxzBcVQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612446950184-ggu6ea87jegr0bnn0cif1pvlips0tvg9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPutih"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/judul2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:text="ini judulnys"
+        android:textColor="@color/colorHitam"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+        <TextView
+            android:id="@+id/logo2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="L"
+            android:background="@color/colorAccent"
+            android:textSize="100sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:gravity="center_vertical"/>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/isi2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="ini keterangannya"
+        android:textColor="@color/colorHitam"/>
+    <TextView
+        android:id="@+id/komen2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round1"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:gravity="center_vertical">
+        <EditText
+            android:id="@+id/input_komen"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPutih"/>
+        <ImageButton
+            android:id="@+id/send_komen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_send_black_24dp"
+            android:background="@color/fui_transparent"/>
+    </LinearLayout>
+</LinearLayout>

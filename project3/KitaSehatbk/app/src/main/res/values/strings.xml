@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">KitaSehat</string>
+    <string name="default_notification_channel_id">berita</string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBg1"
+        android:textColor="@color/colorPutih"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:padding="16dp"
+        android:text="Sorry, the content is currently not available in your country"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <EditText
+            android:id="@+id/userAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAbu1"
+            android:padding="8dp"
+            android:layout_marginBottom="8dp"
+            android:hint="user"/>
+        <EditText
+            android:id="@+id/passAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAbu1"
+            android:padding="8dp"
+            android:hint="pass"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end">
+            <Button
+                android:id="@+id/masukAdmin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="login"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

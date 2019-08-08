@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#FF6D00</color>
+    <color name="colorPutih">#FCFBFB</color>
+    <color name="colorBg1">#1E4C6F</color>
+    <color name="colorHitam">#070707</color>
+    <color name="colorAbu1">#EEEDED</color>
+    <color name="colorAbu3">#ADADAD</color>
+    <color name="colorTransparant">#00000000</color>
+    <color name="colorHijau">#FFD600</color>
+    <color name="colorHijau2">#8124AF</color>
+    <color name="colorBiru">#0277BD</color>
+    <color name="colorBiru2">#0091EA</color>
+    <color name="colorAbu2">#F0F0F0</color>
+    <color name="colorMerah">#DD2C00</color>
+    <color name="colorLed">#F7F7F7</color>
+    <color name="colorSmoot1">#FF5252</color>
+    <color name="colorSmoot2">#FF4081</color>
+    <color name="colorSmoot3">#E040FB</color>
+    <color name="colorSmoot4">#7C4DFF</color>
+    <color name="colorSmoot5">#FFAB40</color>
+    <color name="colorSmoot6">#40C4FF</color>
+    <color name="colorSmoot7">#18FFFF</color>
+    <color name="colorSmoot8">#64FFDA</color>
+    <color name="colorSmoot9">#69F0AE</color>
+    <color name="colorSmoot10">#B2FF59</color>
+    <color name="colorSmoot11">#EEFF41</color>
+    <color name="colorSmoot12">#FFD740</color>
+    <color name="colorSmoot13">#FFAB40</color>
+    <color name="colorSmoot14">#FF6E40</color>
+</resources>

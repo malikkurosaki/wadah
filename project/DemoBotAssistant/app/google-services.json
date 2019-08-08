@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "694758118868",
+    "firebase_url": "https://demobotassistant.firebaseio.com",
+    "project_id": "demobotassistant",
+    "storage_bucket": "demobotassistant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694758118868:android:7b6f4ff401e05e11",
+        "android_client_info": {
+          "package_name": "com.malikkurosaki.demobotassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694758118868-eqtdvkg3vlki3485beh3lnhu1sk1i3cm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.malikkurosaki.demobotassistant",
+            "certificate_hash": "b99cd82aaf50aed8562ae3d0554b81908e78876f"
+          }
+        },
+        {
+          "client_id": "694758118868-7if93tn4vb9f2bpb185tqflvuakn8bue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzk-mA2Xd4VnJXvnCtLCyeeQbAizRurAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694758118868-7if93tn4vb9f2bpb185tqflvuakn8bue.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

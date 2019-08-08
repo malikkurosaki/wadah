@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "906173799247",
+    "firebase_url": "https://probuspresto.firebaseio.com",
+    "project_id": "probuspresto",
+    "storage_bucket": "probuspresto.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906173799247:android:c8e01f4d7969db30",
+        "android_client_info": {
+          "package_name": "dev.malikkurosaki.probuspresto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "906173799247-otg5tu904uht29btlnvg49cgh66o4i6d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.malikkurosaki.probuspresto",
+            "certificate_hash": "b99cd82aaf50aed8562ae3d0554b81908e78876f"
+          }
+        },
+        {
+          "client_id": "906173799247-ih1ndf8hsq3trt3ep1d6329ujoo3jbfb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIPIdeu48C2sn25JFzhdsoBhRsThgyHMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "906173799247-ih1ndf8hsq3trt3ep1d6329ujoo3jbfb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

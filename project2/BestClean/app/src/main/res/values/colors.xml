@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorBlueGrey">#A9CBCF</color>
+    <color name="colorBlueGrey2">#82999C</color>
+    <color name="colorPutih">#FFFFFF</color>
+    <color name="colorOrange">#E7CCAB</color>
+    <color name="colorOrange2">#F5CC9D</color>
+    <color name="colorBiru">#1E88E5</color>
+    <color name="colorBiru2">#039BE5</color>
+    <color name="colorBiru3">#00ACC1</color>
+    <color name="colorTransparant">#00000000</color>
+    <color name="colorAbu">#EDF1F5</color>
+</resources>

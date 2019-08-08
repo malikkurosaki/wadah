@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "972562864451",
+    "firebase_url": "https://myapp-1c948.firebaseio.com",
+    "project_id": "myapp-1c948",
+    "storage_bucket": "myapp-1c948.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972562864451:android:af299a463bc2e77c",
+        "android_client_info": {
+          "package_name": "probus.malikkurosaki.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "972562864451-lu73tjq7ppv7ijand4u9cgqp1ho4dk4o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "probus.malikkurosaki.myapp",
+            "certificate_hash": "4846189d40681b3902def6892cf1341729a92bc2"
+          }
+        },
+        {
+          "client_id": "972562864451-smo2shid2812d50q676vts73j3c2pcrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4Z-ukTyD9nsKxkhbGMWBClTBmj7jQzho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "972562864451-smo2shid2812d50q676vts73j3c2pcrs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

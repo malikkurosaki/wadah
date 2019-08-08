@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/yang_login"
+            android:textColor="@color/colorBiru"
+            android:textAlignment="center"
+            android:textSize="@dimen/header24"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/keterangan_masukkan_nomer_hp"
+            android:padding="@dimen/padding8"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/loginnegara"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </com.hbb20.CountryCodePicker>
+        <EditText
+            android:id="@+id/loginNomor"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="masukkan nomor disini"
+            android:layout_weight="1"
+            android:padding="@dimen/padding8"
+            android:inputType="number"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="kirim"/>
+    </LinearLayout>
+
+</LinearLayout>

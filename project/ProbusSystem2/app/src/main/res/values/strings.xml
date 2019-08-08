@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Probus System</string>
+    <string name="keterangan"><![CDATA[complete solution integrated accounting system for hospitality & retail businesses]]></string>
+    <string name="probushome">jl.Bedugul Shops Dea Graha no.17 D 80224 Denpasar \n Phone : +6287 861 375 265 \n Email : marketing@probussystem.com</string>
+    <string name="penjelasan">
+
+      # Probus chatbot assistant FAQ \n\n
+
+product name: probus chatbot assistant \n\n
+
+creator: probussystem \n\n
+
+__disclaimer__ \n\n
+
+the probus assistan is the development of artificial intelligence, which is intended
+to facilitate customer activities, as a supporting factor for several products
+probussystem \n\n
+
+__Usage instructions__ \n\n
+
+- You can directly press the `mic \'button on the bottom right to start
+conversation with probus assisatant \n\n
+
+- You can type something you want to ask \n\n
+
+
+__general questions__ \n\n
+
+in general, probus assistants are still under development
+but already able to compensate for some of your questions \n\n
+
+__key words__ \n\n
+
+for customer search you can use the conversation format
+both typing and talking (microphone use) as follows \n\n
+
+`[whatever] [by name] [keyword]` \n\n
+
+_Example:_ \n\n
+
+`please find [by name] [key = / ahmad / dani / fitri / tugek / etc]` \n\n
+\n\n
+
+ ``` java \n\n
+
+please find it on by namef of Agus \n\n
+
+``` \n\n
+\n\n
+__Other capabilities__ \n\n
+
+one of the abilities of your probus assistant can be ordered for
+open the application that was installed on your mobile \n\n
+
+_example_ \n \n
+
+```java \n\n
+probus please open whatsapp \n\n
+
+probus please open facebook \n\n
+
+```\n \n
+
+    </string>
+    <string name="slogan">complete integrated accounting system solutions for hospitality and retail business</string>
+
+</resources>

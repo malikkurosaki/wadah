@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:folding-cell="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/colorAbu2">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/colorBg1">
+
+        </LinearLayout>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            android:elevation="10dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/bg_gradient_abu2">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <com.white.progressview.CircleProgressView
+                        android:id="@+id/cir_prog"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        app:progressNormalSize="2dp"
+                        app:progressReachSize="4dp"
+                        app:progressStyle="Normal"
+                        app:radius="25dp"
+                        app:progressTextSize="18sp"
+                        app:innerBackgroundColor="@color/colorBg1"
+                        app:progressNormalColor="@color/colorHijau"
+                        app:progressTextColor="@color/colorPutih"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yesterday" />
+
+                </LinearLayout>
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:gravity="center">
+                        <com.white.progressview.CircleProgressView
+                            android:id="@+id/circle_progress_normal2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="2dp"
+                            app:progressNormalSize="2dp"
+                            app:progressReachSize="4dp"
+                            app:progressStyle="Normal"
+                            app:radius="60dp"
+                            app:progressTextSize="48sp"
+                            app:progressTextColor="@color/colorPutih"
+                            app:innerBackgroundColor="@color/colorAccent" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Today" />
+                    </LinearLayout>
+                   <ImageView
+                       android:id="@+id/panahKiri"
+                       android:layout_width="24dp"
+                       android:layout_height="24dp"
+                       android:src="@drawable/up"
+                       android:layout_gravity="center_vertical|start"/>
+                    <ImageView
+                        android:id="@+id/panahKanan"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/down"
+                        android:layout_gravity="center_vertical|end"/>
+                </FrameLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <com.white.progressview.CircleProgressView
+                        android:id="@+id/circle_progress_normal3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        app:progressNormalSize="2dp"
+                        app:progressReachSize="4dp"
+                        app:progressStyle="Normal"
+                        app:radius="25dp"
+                        app:progressTextSize="18sp"
+                        app:innerBackgroundColor="@color/colorBg1"
+                        app:progressNormalColor="@color/colorAccent"
+                        app:progressTextColor="@color/colorPutih"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tomorrow" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+    <include layout="@layout/layout_dashboard_panel"/>
+    <include layout="@layout/layout_dashboard_berombak"/>
+    <include layout="@layout/layout_dashboard_summary"/>
+    <include layout="@layout/layout_dashboard_room_production"/>
+    <include layout="@layout/layout_dashboard_chart"/>
+</LinearLayout>

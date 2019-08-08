@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "491305505631",
+    "firebase_url": "https://probussystem-32ab2.firebaseio.com",
+    "project_id": "probussystem-32ab2",
+    "storage_bucket": "probussystem-32ab2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491305505631:android:569f88eeebad3d7d",
+        "android_client_info": {
+          "package_name": "dev.makuro.probussystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491305505631-9u0oa1p7m415bgp85lmjibqi3dutu7r7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.makuro.probussystem",
+            "certificate_hash": "b99cd82aaf50aed8562ae3d0554b81908e78876f"
+          }
+        },
+        {
+          "client_id": "491305505631-5g04rmqkg9u956ngcrhpikqqfhst4gtt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtJZ5EVYNv0uDgSNJV1MiI8xdV6Wf3G64"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "491305505631-5g04rmqkg9u956ngcrhpikqqfhst4gtt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

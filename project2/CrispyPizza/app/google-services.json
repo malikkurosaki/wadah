@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "580247664429",
+    "firebase_url": "https://crispypizza.firebaseio.com",
+    "project_id": "crispypizza",
+    "storage_bucket": "crispypizza.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:580247664429:android:eb6a19649911d140",
+        "android_client_info": {
+          "package_name": "dev.malikkurosaki.crispypizza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "580247664429-mltqpflodg00d5796pkhhcf56qsa7r1r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.malikkurosaki.crispypizza",
+            "certificate_hash": "b99cd82aaf50aed8562ae3d0554b81908e78876f"
+          }
+        },
+        {
+          "client_id": "580247664429-d7mjdpgffd03925lujtntp6123j2oe31.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-rOBLaY1lH7hNKkAM9uCocauPeVmExWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "580247664429-d7mjdpgffd03925lujtntp6123j2oe31.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menub1"
+        android:icon="@drawable/menu_open"
+        android:title="menu"/>
+    <item
+        android:id="@+id/menub2"
+        android:icon="@drawable/menu_home"
+        android:title="home"/>
+    <item
+        android:id="@+id/menub3"
+        android:icon="@drawable/icon_news_feed"
+        android:title="news feed"/>
+    <item
+        android:id="@+id/menub4"
+        android:icon="@drawable/pinguin4"
+        android:title="chat bot"/>
+    <item
+        android:id="@+id/menub5"
+        android:icon="@drawable/ic_translate_black_24dp"
+        android:title="translate"/>
+</menu>

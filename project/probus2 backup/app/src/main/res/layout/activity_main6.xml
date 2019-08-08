@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main6Activity"
+    android:orientation="vertical"
+    android:background="@color/colorAccent">
+
+    <ImageView
+        android:id="@+id/notif_gambar"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:adjustViewBounds="true"
+        android:background="@color/colorBiru"/>
+    <TextView
+        android:id="@+id/notif_judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="judul"/>
+    <TextView
+        android:id="@+id/notif_isi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ini"/>
+</LinearLayout>

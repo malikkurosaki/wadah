@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/icon_home"
+        android:id="@+id/menu_bawah1"
+        android:title="menu1"/>
+    <item
+        android:icon="@drawable/icon_kupon"
+        android:id="@+id/menu_bawah2"
+        android:title="menu3"/>
+    <item
+        android:icon="@drawable/icon_shop"
+        android:id="@+id/menu_bawah3"
+        android:title="menu3"/>
+    <item
+        android:icon="@drawable/icon_senyum"
+        android:id="@+id/menu_bawah4"
+        android:title="menu4"/>
+
+</menu>

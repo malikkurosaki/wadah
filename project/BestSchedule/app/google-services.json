@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "699793630986",
+    "firebase_url": "https://bestschedule-a3416.firebaseio.com",
+    "project_id": "bestschedule-a3416",
+    "storage_bucket": "bestschedule-a3416.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699793630986:android:706e48b311da9218",
+        "android_client_info": {
+          "package_name": "com.malikkurosaki.bestschedule"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "699793630986-t4qv4ikvrh8tvev88md7lc11t3onpsum.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.malikkurosaki.bestschedule",
+            "certificate_hash": "b99cd82aaf50aed8562ae3d0554b81908e78876f"
+          }
+        },
+        {
+          "client_id": "699793630986-vo2qd54to36u43pd718i6vfr8aads42h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKCbaggfX4RXuqhc_YnWzgU-WT8JjPsYE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "699793630986-vo2qd54to36u43pd718i6vfr8aads42h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardUseCompatPadding="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Looks like we are not yet acquaintances, first acquaintance"
+                android:background="@color/colorBg1"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textColor="@color/colorPutih"
+                android:padding="8dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="all without using spaces"
+                android:textColor="@color/colorBg1"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+                <EditText
+                    android:id="@+id/chatDaftarUser"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:hint="enter your name"
+                    android:layout_marginBottom="8dp"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"/>
+                <EditText
+                    android:id="@+id/chatDaftarPerusahaan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:hint="enter your company"
+                    android:inputType="text"
+                    android:imeOptions="actionNext"
+                    android:layout_marginBottom="8dp"/>
+                <EditText
+                    android:id="@+id/chatDaftarPass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="enter your id"
+                    android:inputType="text"
+                    android:imeOptions="actionNext"
+                    android:padding="8dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:padding="8dp"
+                android:layout_marginBottom="32dp">
+                <Button
+                    android:id="@+id/chatLogin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="login"
+                    android:backgroundTint="@color/colorBg1"
+                    android:textColor="@color/colorPutih"/>
+                <Button
+                    android:id="@+id/chatDaftarSimpan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="signup"
+                    android:backgroundTint="@color/colorBg1"
+                    android:textColor="@color/colorPutih" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

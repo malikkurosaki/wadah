@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/colorBg1"
+        android:text="apliksi ini hanya akan maksimal dalam bahasa inggris, tekan YA untuk mengganti bahasa ke bahasa inggris"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:gravity="end">
+        <Button
+            android:id="@+id/gantiBahasaYa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YA"
+            android:backgroundTint="@color/colorBg1"
+            android:textColor="@color/colorPutih"/>
+    </LinearLayout>
+</LinearLayout>

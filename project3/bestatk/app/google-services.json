@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "993022882387",
+    "firebase_url": "https://bestatk-19280.firebaseio.com",
+    "project_id": "bestatk-19280",
+    "storage_bucket": "bestatk-19280.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993022882387:android:de57aa08b6a36fe4",
+        "android_client_info": {
+          "package_name": "dev.makuro.bestatk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "993022882387-dj6ib49gm85p86dqq0bsnjek5qbpcki2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.makuro.bestatk",
+            "certificate_hash": "b99cd82aaf50aed8562ae3d0554b81908e78876f"
+          }
+        },
+        {
+          "client_id": "993022882387-h6fqkevbbosltgl6u3qkishqukc4seei.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqe2E24C1WJaB3yH85IJJ4PvKRk9uZ5YA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "993022882387-h6fqkevbbosltgl6u3qkishqukc4seei.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

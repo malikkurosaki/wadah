@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "646127482613",
+    "firebase_url": "https://probuszpizza.firebaseio.com",
+    "project_id": "probuszpizza",
+    "storage_bucket": "probuszpizza.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646127482613:android:cc875c7eb4beebe4",
+        "android_client_info": {
+          "package_name": "probus.makuro.probuszpizza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646127482613-uqhn8v4cci52ojj424c90n5j4bp0lam1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "probus.makuro.probuszpizza",
+            "certificate_hash": "b99cd82aaf50aed8562ae3d0554b81908e78876f"
+          }
+        },
+        {
+          "client_id": "646127482613-v1jdcgsvuh5jnmbe4qcmcu3jvue3desk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARJoY-_Wk5US1WA2H6nbLG5ShPQlCXfyU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "646127482613-v1jdcgsvuh5jnmbe4qcmcu3jvue3desk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

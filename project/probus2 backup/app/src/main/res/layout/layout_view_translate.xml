@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBiru">
+
+    <LinearLayout
+        android:id="@+id/pilihContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/bundar_putih">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+            <Spinner
+                android:id="@+id/bahasa1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorBiru">
+            </Spinner>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+            <Spinner
+                android:id="@+id/bahasa2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorBiru">
+
+            </Spinner>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/hasilContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pilihContainer"
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        android:text="apa kabar"
+        android:background="@color/colorPutih"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+    <TextView
+        android:id="@+id/keluaranHasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mikBicara"
+        android:layout_marginBottom="57dp"
+        android:background="@drawable/bundar_putih"
+        android:padding="16dp"
+        android:layout_margin="16dp"
+        android:gravity="center"/>
+    <ImageView
+        android:id="@+id/mikBicara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bundar_putih"
+        android:padding="8dp"
+        android:src="@drawable/mic_none_24"
+        android:layout_marginBottom="8dp"/>
+</RelativeLayout>

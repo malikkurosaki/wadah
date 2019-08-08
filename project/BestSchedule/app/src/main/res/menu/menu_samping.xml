@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_samping1"
+        android:title="update jadwal"
+        android:icon="@drawable/icon_menu1"/>
+    <item
+        android:id="@+id/menu_samping2"
+        android:title="tambah tutor"
+        android:icon="@drawable/icon_menu2"/>
+    <item
+        android:id="@+id/menu_samping3"
+        android:title="info"
+        android:icon="@drawable/icon_menu3"/>
+    <item
+        android:id="@+id/menu_samping4"
+        android:title="cari"
+        android:icon="@drawable/icon_menu4"/>
+</menu>
